@@ -31,6 +31,6 @@ Flash the [Arduino Camera Rig code](Camera_Rig.ino) onto the Arduino Uno.
 ## Using the Rig
 The rig has two modes:
 * **Regular Mode** - This mode will allow you to sync the turntable with the camera. This mode takes in the amount of photos to calculate the intervals and where to stop. Edit the amount of photos to take, serial input port, and the output path of [this file](camerarig.py) to use this mode.
-* **Sync Mode** This mode will sync your turntable with the turntable and camera. Eid the amount of photos to take, the serial input ports of both rail and turntable, and the output path of [this file](camerarig.py) to use this mode.
+* **Sync Mode** This mode will sync your turntable with the turntable and camera. Edit the amount of photos to take, the serial input ports of both rail and turntable, and the output path of [this file](syncmode.py) to use this mode.
 
 
