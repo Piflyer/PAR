@@ -81,11 +81,6 @@ reconstruct(triangulated_points_path, output_path, alpha)
 * ```output_path``` : Path to output file for reconstructed mesh
 * ```alpha``` : Values between 0 and 1.0, determines how much coverage mesh should get. Higher values cover more but less detail is preserved and vice versa.
 
-## About FAR
-FAR was created during Tim Nguyen's time at MIT as a high school intern at the SPARK lab.
-
 # Acknowledgement
 This work was partially funded by the NSF CAREER award “Certifiable Perception for Autonomous Cyber-Physical Systems”.
-
-Thank you Jingnan for your help and being my mentor for the summer!
 
