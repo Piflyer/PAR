@@ -5,7 +5,6 @@ import cv2 as cv
 import matplotlib.pyplot as plt
 import numpy as np
 import open3d as o3d
-import tqdm
 from scipy.optimize import least_squares
 from scipy.sparse import lil_matrix
 
