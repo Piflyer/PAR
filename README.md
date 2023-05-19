@@ -96,5 +96,4 @@ PAR.multitriangulate(images_path, calibration_matrix_path, distortion_coefficien
 [//]: # (* ```alpha``` : Values between 0 and 1.0, determines how much coverage mesh should get. Higher values cover more but less detail is preserved and vice versa.)
 
 # Acknowledgement
-This work was partially funded by the NSF CAREER award “Certifiable Perception for Autonomous Cyber-Physical Systems”.
-
+The author would like to give thanks to Jingnan Shi, Prof. Luca Carlone, Scott Balicki, Dr. Tina Kapur, and Dr. Alex Golby for their insight and mentoring. The author would also like to acknowledge Isa Gonzalez, Caleb Kohn, Ben Jacobson, Kimberly Nguyen, Sidney Trzepacz, Parker Hastings, Zoe Colimon, and Quyen Vo for their help with obtaining data for this project. This work was partially funded by the NSF CAREER award “Certifiable Perception for Autonomous Cyber-Physical Systems”
