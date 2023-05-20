@@ -5,7 +5,6 @@ import cv2 as cv
 import matplotlib.pyplot as plt
 import numpy as np
 import open3d as o3d
-import tqdm
 from scipy.optimize import least_squares
 from scipy.sparse import lil_matrix
 
@@ -191,7 +190,7 @@ def multitriangulate(
     if kp_alg.upper() != "SIFT" or kp_alg.upper() != "ORB" or kp_alg.upper() != "BRISK":
         raise Exception("Invalid Keypoint Algorithm")
     # Cycle through all images and triangulate points
-    for image_id, image in enumerate(tqdm(images, total=len(images))):
+    for image_id, image in enumerate(images):
         points2d = []
         gray = cv.imread(image, cv.IMREAD_GRAYSCALE)
         try:
