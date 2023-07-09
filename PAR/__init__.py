@@ -185,9 +185,9 @@ def multitriangulate(
     points2dout = []
     indexarr = []
     trinagulatearray = None
-    if sur_alg.lower() != "poisson" or sur_alg.lower() != "alpha":
+    if sur_alg.lower() != "poisson" and sur_alg.lower() != "alpha":
         raise Exception("Invalid Surface Reconstruction Algorithm")
-    if kp_alg.upper() != "SIFT" or kp_alg.upper() != "ORB" or kp_alg.upper() != "BRISK":
+    if kp_alg.upper() != "SIFT" and kp_alg.upper() != "ORB" and kp_alg.upper() != "BRISK":
         raise Exception("Invalid Keypoint Algorithm")
     # Cycle through all images and triangulate points
     for image_id, image in enumerate(images):
