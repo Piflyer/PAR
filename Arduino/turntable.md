@@ -34,7 +34,7 @@ The turntable UI can be navigated using the joystick. Pushing the joystick **UP*
 Pushing the joystick to the **LEFT** will take you to the previous menu.
 
 The turntable has 3 modes:
-* **Serial** - This mode will open the serial port and allow you to send commands to the turntable. You can use this mode to sync it with your DSLR or Rig using [this file](turntablecamerarig.py) and changing the serial port, file output, and amount of photos to take.
+* **Serial** - This mode will open the serial port and allow you to send commands to the turntable. You can use this mode to sync it with your DSLR or Rig using [this file](camerarig.py) and changing the serial port, file output, and amount of photos to take.
   * **Sync Mode** - This mode will sync your turntable with the motorized rig and camera. Edit the amount of photos to take, the serial input ports of both rail and turntable, and the output path of [this file](syncmode.py) to use this mode.
   * **Regular Mode** - This mode will allow you to sync the turntable with the camera. This mode takes in the amount of photos to calculate the intervals and where to stop. Edit the amount of photos to take, serial input port, and the output path of [this file](camerarig.py) to use this mode. 
 * **Revolve** - This mode will allow you to set the speed of the turntable and letting it revolve one full revolution.
